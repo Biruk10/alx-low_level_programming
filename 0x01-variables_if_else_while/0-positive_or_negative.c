@@ -1,14 +1,18 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+/* more headers goes there */
+
+/* betty style doc for function main goes there */
 /**
  * main -main block
  * description: get a random number and print number
- * return 0
+ * return:Always 0
  */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
